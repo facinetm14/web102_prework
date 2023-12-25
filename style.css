@@ -21,6 +21,8 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .stats-card {
@@ -42,13 +44,12 @@ body {
     justify-content: space-around;
 }
 
-.game-img {
-    width: 100%;
+.game-img {  
     border-radius: 5px;
     box-shadow: 0 0 10px #FFFFFF;
 }
 
-.game-card {
+.game-card { 
     background-color: #FFFFFF;
     padding: 1%;
     margin: 1%;
@@ -72,4 +73,24 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+#input-search {
+    padding: 9.5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+#search-btn {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    margin-left: -5px;
 }
