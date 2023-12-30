@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ x ] search a game by its name through the search form!
+* [ ] search a game by its name through the search form!
 
 ## Video Walkthrough
 
